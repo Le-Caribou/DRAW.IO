@@ -38,6 +38,27 @@
             <mxGeometry x="780" y="590" width="70.83" height="68" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ImhVhVMgm0nCk-Ohi60l-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="970" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ImhVhVMgm0nCk-Ohi60l-24" value="Nantes VLAN 510" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="970" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;Controleur #3&lt;/div&gt;&lt;div&gt;POD Y / Z&lt;/div&gt;&lt;div&gt;172.22.250.xxx&lt;/div&gt;&lt;div&gt;SVK8SCTRRE03C&lt;/div&gt;" id="ImhVhVMgm0nCk-Ohi60l-26">
+          <mxCell style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=control_plane" vertex="1" parent="1">
+            <mxGeometry x="80" y="930" width="120" height="115.2" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;Worker #5&lt;/div&gt;&lt;div&gt;POD Y&lt;/div&gt;&lt;div&gt;172.22.250.xxx&lt;/div&gt;&lt;div&gt;SVK8SWRKRE05C&lt;/div&gt;" link="Worker #2&#xa;ESX: 11&#xa;172.22.238.xxx&#xa;SVK8SWRKRE02C" id="ImhVhVMgm0nCk-Ohi60l-31">
+          <mxCell style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+            <mxGeometry x="780" y="880" width="70.83" height="68" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Worker #6&lt;br&gt;VLAN 510&lt;br&gt;POD Z&lt;div&gt;&lt;div&gt;172.22.250.xxx&lt;/div&gt;SVK8SWRKRE06C&lt;/div&gt;" link="Worker #2&#xa;ESX: 11&#xa;172.22.238.xxx&#xa;SVK8SWRKRE02C" id="ImhVhVMgm0nCk-Ohi60l-32">
+          <mxCell style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=node" vertex="1" parent="1">
+            <mxGeometry x="780" y="1045.2" width="70.83" height="68" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
